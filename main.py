@@ -8,6 +8,8 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 db_session.global_init(f"db/mars_explorer.db")
 db_sess = db_session.create_session()
 
+# Введите в консоли "pip install -r requirements.txt" если у вас не установлены нужные библиотеки
+
 def main():
     app.run()
 
